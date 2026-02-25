@@ -150,3 +150,41 @@ section:last-of-type {
 .list-inline li {
   color: var(--gray);
 }
+
+/* Sprint 3: Homepage layout */
+.role {
+  font-size: var(--font-size-2);
+  color: var(--gray);
+  margin-bottom: var(--space-1);
+}
+
+.projects h2 {
+  margin-bottom: var(--space-1);
+}
+
+.project-card {
+  border-left: 2px solid var(--accent);
+  padding-left: var(--space-2);
+}
+
+.project-card h3 {
+  font-size: var(--font-size-2);
+  margin: 0 0 var(--space-1);
+}
+
+.project-card h3 a {
+  color: var(--black);
+}
+
+.project-card h3 a:hover,
+.project-card h3 a:focus {
+  color: var(--accent);
+}
+
+.project-card p {
+  font-size: var(--font-size-base);
+}
+
+.contact {
+  margin-top: var(--space-4);
+}

@@ -3,40 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IS117 Portfolio Scaffold</title>
+  <title>Allwyn Thomas — Full-Stack Software Engineer</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="page">
   <header class="grid">
     <div class="span-12">
-      <h1>IS117 Portfolio Scaffold</h1>
-      <p>Swiss-style foundation with a 12-column grid, strict typography, and defined tokens.</p>
+      <h1>Allwyn Thomas</h1>
+      <p class="role">Full-Stack Software Engineer</p>
+      <p>I build full-stack web applications, machine learning systems, and real-time collaborative tools.</p>
     </div>
   </header>
-  <main class="grid">
-    <section class="span-6">
-      <span class="label">Status</span>
-      <p>Project scaffolding and global design system are in place. Content work will continue in later sprints.</p>
+  <main>
+    <section class="grid projects">
+      <h2 class="span-12">Selected Projects</h2>
+      <article class="span-4 project-card">
+        <h3><a href="projects/project-1.html">Covey.Town Interactive Whiteboard</a></h3>
+        <p>Worked with a team to implement a real-time collaborative whiteboard using Tldraw for the drawing UI, WebSockets for live synchronization across clients, and SQLite for persistent storage. Integrated into the existing codebase for Covey.Town, a 2D virtual meeting platform.</p>
+      </article>
+      <article class="span-4 project-card">
+        <h3><a href="projects/project-2.html">Generative AI Pictionary</a></h3>
+        <p>Created a Pictionary-style drawing and guessing game where a player competes against an AI opponent. Trained CNN models for drawing recognition and GAN models for AI drawing generation using Google's Quick Draw dataset.</p>
+      </article>
+      <article class="span-4 project-card">
+        <h3><a href="projects/project-3.html">Jewelry Store E-Commerce</a></h3>
+        <p>Built a full-stack jewelry store website with JWT authentication, separate user and admin roles, order management workflows, and a MariaDB-backed product catalog.</p>
+      </article>
     </section>
-    <section class="span-6">
-      <span class="label">Structure</span>
-      <ul>
-        <li>assets/ (css, img)</li>
-        <li>projects/</li>
-        <li>data/</li>
-        <li>README.md</li>
-      </ul>
-    </section>
-    <section class="span-12">
-      <span class="label">Design Tokens</span>
-      <ul class="list-inline">
-        <li>Black: #000</li>
-        <li>White: #FFF</li>
-        <li>Neutral gray</li>
-        <li>Accent: #0066cc</li>
-        <li>Spacing base: 8px</li>
-      </ul>
-      <p>Typography scale: 16px base, 18px body lead, 24px section headings, 32px page title.</p>
+    <section class="grid contact">
+      <div class="span-12">
+        <h2>Contact</h2>
+        <p><a href="mailto:aet@njit.edu">aet@njit.edu</a></p>
+      </div>
     </section>
   </main>
 </body>
