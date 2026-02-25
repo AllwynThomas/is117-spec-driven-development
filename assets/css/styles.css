@@ -188,3 +188,51 @@ section:last-of-type {
 .contact {
   margin-top: var(--space-4);
 }
+
+/* Sprint 4: Case study layout */
+.case-meta {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.meta-item dt {
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  margin-bottom: var(--space-1);
+}
+
+.meta-item dd {
+  margin: 0;
+  font-size: var(--font-size-base);
+  color: var(--black);
+}
+
+.case-section h2 {
+  font-size: var(--font-size-2);
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+
+.case-section ul {
+  padding-left: var(--space-3);
+}
+
+.case-section li {
+  margin-bottom: var(--space-1);
+}
+
+@media (max-width: 600px) {
+  .meta-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+}

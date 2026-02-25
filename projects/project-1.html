@@ -14,9 +14,81 @@
     </div>
   </header>
   <main class="grid">
-    <section class="span-12">
-      <p>Worked with a team to implement a real-time collaborative whiteboard using Tldraw for the drawing UI, WebSockets for live synchronization across clients, and SQLite for persistent storage. Integrated into the existing codebase for Covey.Town, a 2D virtual meeting platform.</p>
-      <p>Full case study details will be added in a future sprint.</p>
+    <!-- Meta -->
+    <section class="span-12 case-meta">
+      <dl class="meta-grid">
+        <div class="meta-item">
+          <dt>Role</dt>
+          <dd>Backend Developer</dd>
+        </div>
+        <div class="meta-item">
+          <dt>Timeline</dt>
+          <dd>Sep–Dec 2025, 4 months</dd>
+        </div>
+        <div class="meta-item">
+          <dt>Tools</dt>
+          <dd>TypeScript, Node.js, React, SQLite, WebSockets, Tldraw, GitHub Actions, AWS EC2</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- Problem -->
+    <section class="span-12 case-section">
+      <h2>Problem</h2>
+      <p>A 2D virtual meeting platform needed collaborative drawing capabilities for its users.</p>
+    </section>
+
+    <!-- Constraints -->
+    <section class="span-12 case-section">
+      <h2>Constraints</h2>
+      <p>Had to integrate into the existing Covey.Town codebase without breaking existing features and have it deployed.</p>
+    </section>
+
+    <!-- Hypothesis -->
+    <section class="span-12 case-section">
+      <h2>Hypothesis</h2>
+      <p>Using the Tldraw library combined with WebSocket synchronization would allow real-time multi-user drawing without latency issues.</p>
+    </section>
+
+    <!-- Process -->
+    <section class="span-12 case-section">
+      <h2>Process</h2>
+      <ul>
+        <li>Set up WebSocket server for real-time state synchronization across clients</li>
+        <li>Integrated Tldraw backend into the existing Covey.Town architecture</li>
+        <li>Implemented autosaving and autoloading of whiteboards via SQLite</li>
+        <li>Configured CI/CD pipeline with GitHub Actions to deploy to an AWS EC2 instance</li>
+      </ul>
+    </section>
+
+    <!-- Solution -->
+    <section class="span-12 case-section">
+      <h2>Solution</h2>
+      <p>Deployed to AWS EC2 — users could collaboratively draw in real time and return later to find their work saved.</p>
+    </section>
+
+    <!-- Metrics -->
+    <section class="span-12 case-section">
+      <h2>Metrics</h2>
+      <ul>
+        <li>No visible latency with 5 concurrent users drawing simultaneously</li>
+        <li>Persistent storage: whiteboard state survives page reloads and reconnections</li>
+        <li>Automated deployment via GitHub Actions CI/CD pipeline</li>
+      </ul>
+    </section>
+
+    <!-- Evidence -->
+    <section class="span-12 case-section">
+      <h2>Evidence</h2>
+      <ul>
+        <li><a href="https://coveytown.duckdns.org">Live deployment — coveytown.duckdns.org</a></li>
+      </ul>
+    </section>
+
+    <!-- Lessons -->
+    <section class="span-12 case-section">
+      <h2>Lessons Learned</h2>
+      <p>Learned how to deploy a web service to the cloud and work with WebSockets for handling real-time state management across multiple clients.</p>
     </section>
   </main>
 </body>
