@@ -6,18 +6,20 @@
   <title>IS117 Portfolio Scaffold</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-  <header>
-    <h1>IS117 Portfolio Scaffold</h1>
-    <p>A minimal static site starter for Sprint 1.</p>
+<body class="page">
+  <header class="grid">
+    <div class="span-12">
+      <h1>IS117 Portfolio Scaffold</h1>
+      <p>Swiss-style foundation with a 12-column grid, strict typography, and defined tokens.</p>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Status</h2>
-      <p>Project scaffolding is in place. Add content and styling in later sprints.</p>
+  <main class="grid">
+    <section class="span-6">
+      <span class="label">Status</span>
+      <p>Project scaffolding and global design system are in place. Content work will continue in later sprints.</p>
     </section>
-    <section>
-      <h2>Structure</h2>
+    <section class="span-6">
+      <span class="label">Structure</span>
       <ul>
         <li>assets/ (css, img)</li>
         <li>projects/</li>
@@ -25,9 +27,16 @@
         <li>README.md</li>
       </ul>
     </section>
-    <section>
-      <h2>Next Steps</h2>
-      <p>Follow the sprint plan to add design system, layout, and project content.</p>
+    <section class="span-12">
+      <span class="label">Design Tokens</span>
+      <ul class="list-inline">
+        <li>Black: #000</li>
+        <li>White: #FFF</li>
+        <li>Neutral gray</li>
+        <li>Accent: #0066cc</li>
+        <li>Spacing base: 8px</li>
+      </ul>
+      <p>Typography scale: 16px base, 18px body lead, 24px section headings, 32px page title.</p>
     </section>
   </main>
 </body>

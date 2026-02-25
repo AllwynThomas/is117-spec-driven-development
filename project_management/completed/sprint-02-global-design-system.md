@@ -15,7 +15,7 @@ Implement strict Swiss/International Typographic Style foundation.
 ## Acceptance Criteria
 - Layout uses consistent grid columns
 - All content left-aligned
-- Only 1-2 typefaces used
+- Only 1–2 typefaces used
 - No decorative shadows, gradients, or rounded UI
 - Accent color used consistently
 
